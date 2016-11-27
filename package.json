@@ -1,0 +1,24 @@
+{
+  "name": "zadanie",
+  "version": "0.0.1",
+  "description": "Projekt oraz implementacja prostej aplikacji służącej do zapisu oraz odczytu danych użytkownika do bazy danych.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/are1000/zadanie-kambu.git"
+  },
+  "author": "Artur Wojciechowski <are1000@protonmail.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/are1000/zadanie-kambu/issues"
+  },
+  "homepage": "https://github.com/are1000/zadanie-kambu#readme",
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "socket.io": "^1.7.0"
+  }
+}

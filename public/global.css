@@ -1,0 +1,100 @@
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#login-modal {
+	display: none;
+	background: rgba(0, 0, 0, 0.3);
+	position: fixed;
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#login-modal > .modal-content {
+	background: white;
+	position: fixed;
+	padding: 30px;
+	
+	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.25);
+
+
+	top: 120px;
+	left: 25%;
+	right: 25%;
+}
+
+#login-modal #modal-close {
+	float: right;
+	padding: 0;
+	
+	width: 20px;
+	height: 20px;
+}
+
+#login-modal > .modal-content > .modal-left {
+	float: left;
+	width: 40%;
+}
+
+#login-modal > .modal-content > .modal-right {
+	float: right;
+	width: 50%;
+	padding-left: 30px;
+	border-left: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+#login-modal input, #login-modal textarea {
+	padding: 5px;
+	font-family: monospace;
+	margin: 5px;
+}
+
+#register-name, #register-surname, #register-username, #register-password, #login-username, #login-password {
+	width: 40%;
+}
+
+#register-email {
+	width: calc(80% + 26px);
+}
+
+#register-address {
+	width: calc(80% + 26px);
+	height: 60px;
+	resize: none;
+}
+
+#login-modal button {
+	margin: 5px;
+	padding: 5px;
+	font-family: monospace;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0.5rem;
+	border-collapse: collapse;
+	
+}
+
+thead {
+	border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+td {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  text-align: left;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+td:first-child {
+	max-width: 20px;
+}
+
+tr:nth-child(odd) {
+  background: #eee;
+}

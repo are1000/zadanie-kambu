@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Baza danych</title>
+
+	<script type="text/javascript" src="http://localhost:3000/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="sha1.js"></script>
+	<script type="text/javascript" src="bind.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="global.css">
+</head>
+<body>
+<div class="container">
+	
+</div>
+
+
+<div id="login-modal">
+	<div class="modal-content">
+
+		<button id="modal-close">x</button>
+
+  		<div class="modal-left">
+  			<h2>Zaloguj się</h2>
+  			<div id="login-info"></div>
+  			<input type="text" placeholder="Nazwa użytkownika" id="login-username"><input type="password" placeholder="Hasło" id="login-password"><br>
+     		<button id="login-send">Zaloguj</button>
+  		</div>
+
+  		<div class="modal-right">
+     		<h2>Zarejestruj się</h2>
+     		<div id="register-info"></div>
+     		<input type="text" placeholder="Imię" id="register-name"><input type="text" placeholder="Nazwisko" id="register-surname"><br>
+     		<textarea placeholder="Adres" id="register-address"></textarea><br>
+     		<br>
+     		<input type="email" placeholder="Email" id="register-email"><br>
+     		<input type="text" placeholder="Nazwa użytkownika" id="register-username"><input type="password" placeholder="Hasło" id="register-password"><br>
+     		<button id="register-send">Zarejestruj</button>
+  		</div>
+
+  		<br style="clear:both;"/>
+	</div>
+</div>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
